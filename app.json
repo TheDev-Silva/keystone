@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "#4878b8",
+    "userInterfaceStyle": "#00ffcc",
     "plugins": [
       [
         "expo-camera",
@@ -19,7 +19,7 @@
     "splash": {
       "image": "./assets/splash-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#4878b8"
+      "backgroundColor": "#00ffcc"
     },
     "ios": {
       "supportsTablet": true
@@ -27,7 +27,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#4878b8"
+        "backgroundColor": "#00ffcc"
       },
       "package": "com.geehdev.keyStone"
     },

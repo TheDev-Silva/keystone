@@ -305,7 +305,7 @@ const CreatePassword = () => {
                   <View style={{ flexDirection: 'row', gap: 15, justifyContent: 'center', alignItems: 'center' }}>
                      <TouchableOpacity onPress={() => setModalUser(true)} style={{ backgroundColor: '#2C3E50', width: 50, height: 50, borderRadius: 120, justifyContent: 'center', alignItems: 'center' }}>
 
-                        <Text style={{ textAlign: 'center', fontSize: 25, color: '#fff', fontWeight: 'bold' }}>{nameSpace.name[0]}</Text>
+                        {nameSpace && <Text style={{ textAlign: 'center', fontSize: 25, color: '#fff', fontWeight: 'bold' }}>{nameSpace.name[0]}</Text>}
                         {nameSpace.plan === 'premium' && <Ionicons name='star' color={'#ff5'} size={15} style={{ position: 'absolute', right: 0, top: -2 }} />}
                      </TouchableOpacity>
 

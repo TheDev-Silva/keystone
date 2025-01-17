@@ -34,11 +34,11 @@ const Pager = ({ navigation }) => {
    }, []);
 
    
-   /* useEffect(()=> {
+   useEffect(()=> {
       
       handleCredentialLogin()
 
-   },[]) */
+   },[])
 
    const handlelogin = async () => {
 
