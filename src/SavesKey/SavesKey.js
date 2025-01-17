@@ -200,9 +200,9 @@ const SavesKey = ({ navigation }) => {
                                  <Text style={[styles.itemText, { fontWeight: '600', textTransform: 'uppercase', fontSize: 18, color: '#000' }]}>{item.createItem}</Text>
                               </View>
 
-                              <View style={{ flexDirection: 'row', gap: 10, alignItems: 'center', justifyContent: 'center' }}>
+                              <View style={{flex: 1, flexDirection: 'row', gap: 10, alignItems: 'center', justifyContent: 'center',  }}>
                                  <LinearGradient
-                                    colors={['#000', '#000', '#000']} start={[0, 1]} end={[1, 0]}
+                                    colors={['#000', '#2C3E50', '#000']} start={[0, 1]} end={[1, 0]}
                                     style={{ padding: 15, borderRadius: 5, marginTop: 10, alignItems: 'center', flex: 1 }}
                                  >
                                     <Pressable onPress={() => handleRemovePassword(item)}>
@@ -212,7 +212,7 @@ const SavesKey = ({ navigation }) => {
                                  </LinearGradient>
                                  
                                     <LinearGradient
-                                       colors={['#000', '#000', '#000']} start={[0, 1]} end={[1, 0]}
+                                       colors={['#000', '#2C3E50', '#000']} start={[0, 1]} end={[1, 0]}
                                        style={{ padding: 15, borderRadius: 5, marginTop: 10, alignItems: 'center', flex: 1 }}
                                     >
                                        <Pressable onPress={() => setIsEditModalVisible(true)} style={{flex: 1}}>
@@ -347,7 +347,7 @@ const styles = StyleSheet.create({
       shadowRadius: 10,
       elevation: 5,
       overflow: 'hidden',
-      padding: 15,
+      padding: 8,
       backgroundColor: '#f5f5f5',
       borderBottomLeftRadius: 10,
       borderBottomRightRadius: 10,
